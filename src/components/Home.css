@@ -1,0 +1,11 @@
+.intro {
+  position: absolute;
+  top: 9em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #1a1a1a;
+  z-index: 1000;
+}
