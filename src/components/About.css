@@ -1,0 +1,41 @@
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: left;
+  gap: 40px;
+  padding: 20px;
+}
+
+.about-me-h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.about-section {
+  width: 40%;
+  color: white;
+  font-size: 1em;
+  font-family: "Comic Sans MS", cursive;
+}
+
+.email {
+  color: aqua;
+}
+.about-text {
+  margin-top: 10px;
+}
+
+.about-ex {
+  width: 25%;
+  color: rgb(255, 255, 255);
+  z-index: 1000;
+  font-size: 1.3em;
+  font-family: "Comic Sans MS", cursive;
+}
+
+.email:hover {
+  text-decoration: underline;
+}

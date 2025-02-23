@@ -1,25 +1,24 @@
 import "./Header.css";
-import logo from "./src/assets/app-logo.png";
-import { useNavigate } from "react-router-dom";
+import logo from "../assets/app-logo.png";
+import { NavLink } from "react-router-dom";
 
 function Header() {
-  const navigate = useNavigate();
   return (
     <div>
       <div className="header">
-        <a href="/">
+        <NavLink to="/">
           <img src={logo} alt="Logo" className="logo" />
-        </a>
+        </NavLink>
         <div className="search-bar-wrapper">
           <input type="text" className="search-bar" placeholder="Search..." />
         </div>
-        <div className="header-left">
-          <button onClick={() => navigate("/profile")} className="btn-55">
+        <div className="header-right">
+          <NavLink to="/profile" className="btn-55">
             <span>Profile</span>
-          </button>
-          <button onClick={() => navigate("/about")} className="btn-55">
+          </NavLink>
+          <NavLink to="/about" className="btn-55">
             <span>About</span>
-          </button>
+          </NavLink>
         </div>
       </div>
     </div>
