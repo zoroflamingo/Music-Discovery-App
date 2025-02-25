@@ -1,0 +1,29 @@
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+  width: 100vw;
+}
+.profile-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: aliceblue;
+  width: 30vw;
+  height: 60vh;
+  margin-top: 25vh;
+  font-size: 1em;
+  font-family: "Comic Sans MS", cursive;
+}
+.profile-picture {
+  text-align: center;
+  margin-top: 25vh;
+}
+.profile-pic {
+  width: 27vw;
+  vertical-align: middle;
+}
