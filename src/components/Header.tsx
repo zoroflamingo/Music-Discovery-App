@@ -13,6 +13,12 @@ function Header() {
           <input type="text" className="search-bar" placeholder="Search..." />
         </div>
         <div className="header-right">
+          <NavLink to="/signup" className="btn-55">
+            <span>Sign up</span>
+          </NavLink>
+          <NavLink to="/login" className="btn-55">
+            <span>Log in</span>
+          </NavLink>
           <NavLink to="/profile" className="btn-55">
             <span>Profile</span>
           </NavLink>
